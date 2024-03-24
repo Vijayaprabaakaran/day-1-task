@@ -1,0 +1,14 @@
+Difference between HTTP1.1 and HTTP2
+
+HTTP 1.1
+1More specifically, HTTP is the method computers and servers use to request and send information. The first usable version of HTTP was created in 1997. Because it went through several stages of development, this first version of HTTP was called HTTP/1.1. This version is still in use on the web.
+2.HTTP/1 was known to have poor response time. With websites becoming more resource-intensive, the protocol was losing its efficiency. It progressively became essential to minimize latency and boost page load speeds.
+3.This approach surely ensures good performance, but it also is problematic.
+4.HTTP/1 is an upper-layer network protocol for transmitting data in the form of hypertext HTML documents and arbitrary data. With this protocol, the browser accepts data from servers and then displays it in a user-friendly form. The browser also sends user data to the server via HTTP.
+
+
+HTTP 2
+1.Launching of the HTTP/2 was an attempt to overcome the limitations of HTTP/1.1 and make it a more efficient web protocol.
+2.The major feature that differentiates HTTP/2 from HTTP/1.1 is the binary framing layer. Unlike HTTP/1.1, HTTP/2 uses a binary framing layer. This layer encapsulates messages – converted to its binary equivalent – while making sure that its HTTP semantics (method details, header information, etc.) remain untamed. This feature of HTTP/2 enables gRPC to use lesser resources.
+3.HTTP2 is more secure as it uses binary protocol instead of plaintext. HTTP/2 allows the user to have a better web experience by reducing the page load time considerably. It needs the header to be sent just once in binary codes to increase speed.
+4.HTTP/2 offers a feature called weighted prioritization. This allows developers to decide which page resources will load first, every time. In HTTP/2, when a client makes a request for a webpage, the server sends several streams of data to the client at once, instead of sending one thing after another.

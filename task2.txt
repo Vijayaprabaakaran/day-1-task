@@ -1,0 +1,15 @@
+Objects and its internal representation in Javascript
+
+1.JavaScript variables can also contain many values. Objects are variables too. But objects can contain many values. Object values are written as name : value pairs (name and value separated by a colon).
+2.In JavaScript, objects have an internal property known as Prototype . You can also see that there is a Scopes inside of these double brackets as well once clicking inside an object. Whenever there are [[]] that appear, it's an internal property that can't be accessed by our code
+3.Internal methods are member functions of a JavaScript object. For example, every JavaScript object has an internal slot [[Prototype]] and an internal method [[GetOwnProperty]] . Internal slots and methods are not accessible from JavaScript. For example, you cannot access o. [[Prototype]] or call o.
+4.JS Objects
+JavaScript Date.
+JavaScript Promise.
+JavaScript BigInt.
+JavaScript Boolean.
+JavaScript Proxy/Handler.
+JavaScript WeakMap.
+JavaScript WeakSet.
+JavaScript Function Generator.
+5.Objects are important data types in javascript. Objects are different than primitive datatypes (i.e. number, string, boolean, etc.). Primitive data types contain one value but Objects can hold many values in form of Key: value pair. These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
